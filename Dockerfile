@@ -21,6 +21,9 @@ RUN set -ex \
     && cd /home/xmrig \
     && rm -rf /tmp/xmrig \
     && apk del .build-deps
+
 USER xmrig
+
 WORKDIR /home/xmrig
+
 ENTRYPOINT ["./xmrig"]
