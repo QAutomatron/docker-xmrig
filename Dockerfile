@@ -8,7 +8,7 @@ RUN set -ex \
            git \
            cmake \
            build-base \
-    && apk add --no-cache libuv-dev libmicrohttpd \
+    && apk add --no-cache libuv-dev libmicrohttpd-dev \
     && cd /tmp \
     && git clone https://github.com/xmrig/xmrig \
     && cd xmrig \
