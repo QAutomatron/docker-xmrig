@@ -1,12 +1,15 @@
 # Docker XMRig
 This Dockerfile build an image for [xmrig](https://github.com/xmrig/xmrig), based on Alpine Linux.
 
+Current version: v2.4.3
+
 This is a donate-free version of xmrig, you can consider making a one off donation to xmrig author's wallet:
 
 ```
 XMR: 48edfHu7V9Z84YzzMa6fUueoELZ9ZRXq9VetWzYGzKt52XU5xvqgzYnDK9URnRoJMk1j8nLwEVsaSWJ4fhdUyZijBGUicoD
 BTC: 1P7ujsXeX7GxQwHNnJsRMgAdNkFZmNVqJT
 ```
+
 
 ## Usage
 
