@@ -2,6 +2,8 @@ FROM alpine
 
 MAINTAINER Acris Liu "acrisliu@gmail.com"
 
+ENV XMRIG_VERSION v2.4.3
+
 RUN set -ex \
     && adduser -S -D -H -h /home/xmrig xmrig \
     && apk add --no-cache --virtual .build-deps \
@@ -12,6 +14,7 @@ RUN set -ex \
     && cd /tmp \
     && git clone https://github.com/xmrig/xmrig \
     && cd xmrig \
+    && git checkout "$XMRIG_VERSION" \
     && sed -i -e 's/constexpr const int kDonateLevel = 5;/constexpr const int kDonateLevel = 0;/g' src/donate.h \
     && mkdir build \
     && cd build \
