@@ -5,7 +5,7 @@ MAINTAINER Acris Liu "acrisliu@gmail.com"
 ENV XMRIG_VERSION v2.4.3
 
 RUN set -ex \
-    && adduser -S -D -H -h /home/xmrig xmrig \
+    && adduser -S -D -h /home/xmrig xmrig \
     && apk add --no-cache --virtual .build-deps \
            git \
            cmake \
