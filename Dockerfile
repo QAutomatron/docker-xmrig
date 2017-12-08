@@ -21,7 +21,7 @@ RUN set -ex \
     && cmake .. -DCMAKE_BUILD_TYPE=Release \
     && make \
     && cp xmrig /home/xmrig \
-    && cd /home/xmrig \
+    && cd / \
     && rm -rf /tmp/xmrig \
     && apk del .build-deps
 
