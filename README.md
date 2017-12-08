@@ -31,7 +31,7 @@ docker run acrisliu/xmrig -o POOL:PORT -u USER -p x -k
       --cpu-priority    set process priority (0 idle, 2 normal to 5 highest)
       --no-huge-pages   disable huge pages support
       --no-color        disable colored output
-      --donate-level=N  donate level, default 5% (5 minutes in 100 minutes)
+      --donate-level=N  donate level, default 0% (0 minutes in 100 minutes)
       --user-agent      set custom user-agent string for pool
   -B, --background      run the miner in the background
   -c, --config=FILE     load a JSON-format configuration file
