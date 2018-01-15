@@ -1,8 +1,8 @@
 FROM alpine
 
-MAINTAINER Acris Liu "acrisliu@gmail.com"
+MAINTAINER QAutomatron
 
-ENV XMRIG_VERSION v2.4.3
+ENV XMRIG_VERSION v2.4.4
 
 RUN set -ex \
     && adduser -S -D -h /home/xmrig xmrig \
