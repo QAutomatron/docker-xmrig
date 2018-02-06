@@ -15,7 +15,7 @@ BTC: 1P7ujsXeX7GxQwHNnJsRMgAdNkFZmNVqJT
 
 ### Basic example
 ```
-docker run acrisliu/xmrig -o POOL:PORT -u USER -p x -k
+docker run qautomatron/xmrig -o POOL:PORT -u USER -p x -k
 ```
 
 ### Options
