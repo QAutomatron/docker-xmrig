@@ -2,7 +2,7 @@ FROM alpine
 
 MAINTAINER QAutomatron
 
-ENV XMRIG_VERSION v2.4.5
+ENV XMRIG_VERSION v2.5.3
 
 RUN set -ex \
     && adduser -S -D -h /home/xmrig xmrig \
